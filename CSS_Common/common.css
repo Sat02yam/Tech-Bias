@@ -299,8 +299,73 @@ button:hover {
   margin: auto;
 }
 
-.tbo {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+.rdio {
+  margin: 0;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-right: 8px;
+}
+
+.rd {
+  margin: 0;
+}
+
+.rd {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.radio {
+  margin: 60px 0;
+  background: #E4F7FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 0px 2px 20px 4px rgba(67, 136, 224, 0.17);
+          box-shadow: 0px 2px 20px 4px rgba(67, 136, 224, 0.17);
+  border-radius: 16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.radio h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.radio label {
+  font-size: 1.1rem;
+}
+
+.radio:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 /*# sourceMappingURL=common.css.map */
