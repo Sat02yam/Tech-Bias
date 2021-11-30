@@ -16,7 +16,7 @@ body{
     background: url("/Assets/19366\ 1.svg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .content{
@@ -80,7 +80,7 @@ nav{
 }
 
 .tb{
-    position: absolute;
+    position: fixed;
     top: 80%;
     left: 5%;
 }
@@ -167,6 +167,7 @@ button:hover{
     right: 50px;
     top: 100px;
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .rform h1{
