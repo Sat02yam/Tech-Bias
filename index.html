@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS_Common/common.css">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -39,18 +40,34 @@
                 <img class="tbo" src="Assets/TechBias.svg" alt="">
             </div>
             <!-- <h1 style="margin-top: 20px; width: 100%; text-align: center; font-size: 2rem;">Register for Tech Bias 2021</h1> -->
-            <div class="radio">
+            <!-- <div class="radio">
                 <h4>Applying as </h4>
-                <label for="ind" class="rd">
+                <label for="ind" class="rd" id="wohoo">
                     <input class="rdio"  type="radio" name="radio" id="ind" value="1">
                     Individual
                 </label>
-                <label for="tem" class="rd">
+                <label for="tem" class="rd" id="wohoo">
                     <input class="rdio"  type="radio" name="radio" id="tem" value="2">
                     Team
                 </label>
             </div>
-            <div style="width: 100%; display: flex; align-items: center; justify-content: center;"><button>Submit</button></div>
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;"><button id="proceed"><a href="">Team</a></button></div>
+            <div style="width: 100%; display: flex; align-items: center; justify-content: center;"><button id="submit"><a href="">Ind</a></button></div> -->
+            <div class="applying">
+                <h2 for="sizehead" style="margin-top: 40px;">Applying as :</h2>
+                <select name="" id="halua">
+                    <option selected value="1">Team</option>
+                    <option value="2">Individual</option>
+                </select>
+            </div>
+            <button id="proceed">
+                <a href="reg2.html" >Proceed</a>
+                <!-- <a href="" id="submit">Submit</a> -->
+            </button>
+            <button id="submit">
+                <a href="Reg1.html">Submit</a>
+                <!-- <a href="" id="submit">Submit</a> -->
+            </button>
         </div>
     </div>
 </body>
